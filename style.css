@@ -1,0 +1,78 @@
+body{
+     margin:0rem;
+     background-color: black;
+     font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+ }
+ .nav-top-level{
+     display:flex;
+     /* flex-direction: column; */
+     justify-content: space-between;
+     align-items:center;
+     height: auto;
+     width: auto;
+     gap:3rem;
+     padding: 25px;
+     color: white;
+     background-color: #1e1e1e;
+     border-color: aliceblue;
+ }
+ .nav-top-level button{
+   color: black;
+   background-color: #90caf9;
+   cursor: pointer;
+   border:none;
+   justify-content: center;
+   height: 3rem;
+   width:8rem;
+
+ }
+ .navbar{
+     display:flex;
+     justify-content: right;
+     margin:1rem;
+     gap:3rem;
+ }
+ .navbar-box i{
+   position: right;
+
+ }
+ .heading{
+    justify-content: center;
+    text-align: center;
+    color:white;
+    background-color:black;
+    margin-top:5rem;
+ }
+ .parent{
+    display:flex;
+    padding:1rem;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color:black;
+    height:auto;
+
+ }
+ .child{
+    height:auto;
+    width:auto;
+    color: white;
+    background-color: #1e1e1e;
+    padding:5rem;
+ }
+ .child button{
+    color:white;
+    background-color: #90caf9;
+    cursor: pointer;
+    border:none;
+    justify-content: center;
+    height: 3rem;
+    width:8rem;
+    text-align: center;
+    border-radius: 1rem;
+ }
+ .bff{
+   color:white;
+   padding-left: 5rem;
+   padding-right: 5rem;
+
+ }
